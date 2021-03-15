@@ -1,0 +1,56 @@
+Exercicio 2)
+
+2.1)
+int a, b;
+Push( 23, s );
+Push( 56, s );
+b = Pop( s );
+a = Pop( s );
+Push( a-b, s );
+Push( 3, s );
+b = Pop( s );
+a = Pop( s );
+Push( a*b, s );
+Push(1,s);
+Push(3,s);
+Push(4,s);
+b = Pop( s );
+a = Pop( s );
+Push( b / a, s );
+b = Pop(s);
+a = Pop(s);
+Push( b + a, s );
+b = Pop(s);
+a = Pop(s);
+Push(a+b,s);
+
+2.2)
+int a, b;
+Push( 23, s );
+Push( 56, s );
+Push(7,s);
+Push(32,s);
+b = Pop( s );
+a = Pop( s );
+Push(b/a,s);
+b = Pop( s );
+a = Pop( s );
+Push(b+a,s);
+Push(7,s);
+Push(5,s);
+b = Pop( s );
+a = Pop( s );
+Push(b-a,s);
+Push(3,s);
+b = Pop( s );
+a = Pop( s );
+Push(b*a,s);
+b = Pop( s );
+a = Pop( s );
+Push(b-a,s);
+b = Pop( s );
+a = Pop( s );
+Push(b-a,s);
+
+
+
