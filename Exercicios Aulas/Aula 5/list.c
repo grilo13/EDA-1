@@ -65,7 +65,7 @@ void Delete( ElementType X, List L ){
 
     P = FindPrevious(X,L);
 
-    if(!IsLast(P)){  //se elemento existe
+    if(!IsLast(P,L)){  //se elemento existe
         tmp = P->Next;
         P->Next = tmp->Next;
         free(tmp);
