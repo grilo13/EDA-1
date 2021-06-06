@@ -10,6 +10,7 @@
 #include "dictionary.h"
 
 #define ARR_SIZE 45
+#define BUFSIZE 1000000
 
 // Undefine any definitions
 #undef calculate
@@ -22,6 +23,7 @@ int main(int argc, char *argv[])
 {   
     char message[ARR_SIZE] = "Mensagem: ";
     char word[ARR_SIZE];
+    char buff[BUFSIZE];
 
     int key = -1;
 
